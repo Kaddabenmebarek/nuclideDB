@@ -1,0 +1,12 @@
+GRANT SELECT,INSERT,UPDATE ON nuclide TO osiris_writer;
+GRANT SELECT,INSERT,UPDATE ON nuclide_allowance TO osiris_writer;
+GRANT SELECT,INSERT,UPDATE ON nuclide_attached TO osiris_writer;
+GRANT SELECT,INSERT,UPDATE ON nuclide_bottle TO osiris_writer;
+GRANT SELECT,INSERT,UPDATE ON nuclide_disposal_route TO osiris_writer;
+GRANT SELECT,INSERT,UPDATE ON nuclide_location TO osiris_writer;
+GRANT SELECT,INSERT,UPDATE ON nuclide_location_type TO osiris_writer;
+GRANT SELECT,INSERT,UPDATE ON nuclide_usage TO osiris_writer;
+GRANT SELECT,INSERT,UPDATE ON nuclide_user TO osiris_writer;
+GRANT SELECT,INSERT,UPDATE ON nuclide_waste TO osiris_writer;
+GRANT SELECT,INSERT,UPDATE ON NUCLIDE_LAB_ISOTOPE TO osiris_writer;
+commit;

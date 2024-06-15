@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-reverse-engineering PUBLIC "-//Hibernate/Hibernate Reverse Engineering DTD 3.0//EN" "http://hibernate.org/dtd/hibernate-reverse-engineering-3.0.dtd" >
+
+<hibernate-reverse-engineering>
+  <table-filter match-schema="APEX_040000" match-name=".*" exclude="true"/>
+  <table-filter match-schema="CTXSYS" match-name=".*" exclude="true"/>
+  <table-filter match-schema="MDSYS" match-name=".*" exclude="true"/>
+  <table-filter match-schema="SYS" match-name=".*" exclude="true"/>
+  <table-filter match-schema="SYSTEM" match-name=".*" exclude="true"/>
+  <table-filter match-schema="XDB" match-name=".*" exclude="true"/>
+  <table-filter match-schema="NUCLIDEDB" match-name="APEX$_ACL" exclude="true"/>
+  <table-filter match-schema="NUCLIDEDB" match-name="APEX$_WS_FILES" exclude="true"/>
+  <table-filter match-schema="NUCLIDEDB" match-name="APEX$_WS_HISTORY" exclude="true"/>
+  <table-filter match-schema="NUCLIDEDB" match-name="APEX$_WS_LINKS" exclude="true"/>
+  <table-filter match-schema="NUCLIDEDB" match-name="APEX$_WS_NOTES" exclude="true"/>
+  <table-filter match-schema="NUCLIDEDB" match-name="APEX$_WS_ROWS" exclude="true"/>
+  <table-filter match-schema="NUCLIDEDB" match-name="APEX$_WS_TAGS" exclude="true"/>
+  <table-filter match-schema="NUCLIDEDB" match-name="APEX$_WS_WEBPG_SECTIONS" exclude="true"/>
+  <table-filter match-schema="NUCLIDEDB" match-name="APEX$_WS_WEBPG_SECTION_HISTORY" exclude="true"/>
+  <table-filter match-schema="NUCLIDEDB" match-name="NUCLIDE"/>
+  <table-filter match-schema="NUCLIDEDB" match-name="NUCLIDE_ALLOWANCE"/>
+  <table-filter match-schema="NUCLIDEDB" match-name="NUCLIDE_BOTTLE"/>
+  <table-filter match-schema="NUCLIDEDB" match-name="NUCLIDE_DISPOSAL_ROUTE"/>
+  <table-filter match-schema="NUCLIDEDB" match-name="NUCLIDE_LOCATION"/>
+  <table-filter match-schema="NUCLIDEDB" match-name="NUCLIDE_LOCATION_TYPE"/>
+  <table-filter match-schema="NUCLIDEDB" match-name="NUCLIDE_USAGE"/>
+  <table-filter match-schema="NUCLIDEDB" match-name="NUCLIDE_USER"/>
+  <table-filter match-schema="NUCLIDEDB" match-name="NUCLIDE_WASTE"/>
+</hibernate-reverse-engineering>

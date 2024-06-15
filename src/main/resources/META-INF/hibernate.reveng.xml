@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-reverse-engineering PUBLIC "-//Hibernate/Hibernate Reverse Engineering DTD 3.0//EN" "http://hibernate.org/dtd/hibernate-reverse-engineering-3.0.dtd" >
+
+<hibernate-reverse-engineering>
+  <table-filter match-schema="ACTCART" match-name=".*" exclude="true"/>
+  <table-filter match-schema="ANIMAL" match-name=".*" exclude="true"/>
+  <table-filter match-schema="CTXSYS" match-name=".*" exclude="true"/>
+  <table-filter match-schema="GSMADMIN_INTERNAL" match-name=".*" exclude="true"/>
+  <table-filter match-schema="HTS" match-name=".*" exclude="true"/>
+  <table-filter match-schema="MERCURY" match-name=".*" exclude="true"/>
+  <table-filter match-schema="NIOBE" match-name=".*" exclude="true"/>
+  <table-filter match-schema="PHENOPRINT" match-name=".*" exclude="true"/>
+  <table-filter match-schema="SYS" match-name=".*" exclude="true"/>
+  <table-filter match-schema="SYSTEM" match-name=".*" exclude="true"/>
+  <table-filter match-schema="UNITS" match-name=".*" exclude="true"/>
+  <table-filter match-schema="WMSYS" match-name=".*" exclude="true"/>
+  <table-filter match-schema="XDB" match-name=".*" exclude="true"/>
+  <table-filter match-schema="OSIRIS" match-name="ACTIVITY_PROFILE" exclude="true"/>
+  <table-filter match-schema="OSIRIS" match-name="ACTIVITY_PROFILE_SET" exclude="true"/>
+  <table-filter match-schema="OSIRIS" match-name="ASSAY" exclude="true"/>
+  <table-filter match-schema="OSIRIS" match-name="ASSAY_ATTRIBUTE" exclude="true"/>
+  <table-filter match-schema="OSIRIS" match-name="ASSAY_RESULT" exclude="true"/>
+  <table-filter match-schema="OSIRIS" match-name="ASSAY_RESULT_VALUE" exclude="true"/>
+  <table-filter match-schema="OSIRIS" match-name="AXOVAN_BATCH_LOOKUP" exclude="true"/>
+  <table-filter match-schema="OSIRIS" match-name="AXOVAN_SUBSTANCE_LOOKUP" exclude="true"/>
+  <table-filter match-schema="OSIRIS" match-name="BATCH" exclude="true"/>
+  <table-filter match-schema="OSIRIS" match-name="BATCH_LINK" exclude="true"/>
+  <table-filter match-schema="OSIRIS" match-name="COMPOUND" exclude="true"/>
+  <table-filter match-schema="OSIRIS" match-name="CREATE$JAVA$LOB$TABLE" exclude="true"/>
+  <table-filter match-schema="OSIRIS" match-name="DUMMY_MV" exclude="true"/>
+  <table-filter match-schema="OSIRIS" match-name="EMPLOYEE" exclude="true"/>
+  <table-filter match-schema="OSIRIS" match-name="EMPLOYEE_GROUP" exclude="true"/>
+  <table-filter match-schema="OSIRIS" match-name="EMPLOYEE_GROUP_LINK" exclude="true"/>
+  <table-filter match-schema="OSIRIS" match-name="EXPERIMENT" exclude="true"/>
+  <table-filter match-schema="OSIRIS" match-name="EXPR_RESULT" exclude="true"/>
+  <table-filter match-schema="OSIRIS" match-name="EXPR_SAMPLE" exclude="true"/>
+  <table-filter match-schema="OSIRIS" match-name="FORMULATION_BCK" exclude="true"/>
+  <table-filter match-schema="OSIRIS" match-name="FORMULATION_TYPE" exclude="true"/>
+  <table-filter match-schema="OSIRIS" match-name="FORMULATION_TYPE_CATEGORY" exclude="true"/>
+  <table-filter match-schema="OSIRIS" match-name="FORMU_COMPOUND_BCK" exclude="true"/>
+  <table-filter match-schema="OSIRIS" match-name="FREEZER_INVENTORY_TODEL" exclude="true"/>
+  <table-filter match-schema="OSIRIS" match-name="FREE_LOCATION" exclude="true"/>
+  <table-filter match-schema="OSIRIS" match-name="HTS_SUMMARY" exclude="true"/>
+  <table-filter match-schema="OSIRIS" match-name="HTS_TEST" exclude="true"/>
+  <table-filter match-schema="OSIRIS" match-name="JAVA$OPTIONS" exclude="true"/>
+  <table-filter match-schema="OSIRIS" match-name="MEAN" exclude="true"/>
+  <table-filter match-schema="OSIRIS" match-name="MLOG$_COMPOUND" exclude="true"/>
+  <table-filter match-schema="OSIRIS" match-name="MLOG$_EXPERIMENT" exclude="true"/>
+  <table-filter match-schema="OSIRIS" match-name="MLOG$_MEAN" exclude="true"/>
+  <table-filter match-schema="OSIRIS" match-name="MLOG$_RESULT" exclude="true"/>
+  <table-filter match-schema="OSIRIS" match-name="MLOG$_TEST" exclude="true"/>
+  <table-filter match-schema="OSIRIS" match-name="MV_CAPABILITIES_TABLE" exclude="true"/>
+  <table-filter match-schema="OSIRIS" match-name="PATENT_LINK_TODEL" exclude="true"/>
+  <table-filter match-schema="OSIRIS" match-name="PCG_COMPLETION_STATUS" exclude="true"/>
+  <table-filter match-schema="OSIRIS" match-name="PCG_FILES" exclude="true"/>
+  <table-filter match-schema="OSIRIS" match-name="PCG_FINAL_RESULT" exclude="true"/>
+  <table-filter match-schema="OSIRIS" match-name="PCG_PRIORITY" exclude="true"/>
+  <table-filter match-schema="OSIRIS" match-name="PCG_PROJECT" exclude="true"/>
+  <table-filter match-schema="OSIRIS" match-name="PCG_PROTEIN" exclude="true"/>
+  <table-filter match-schema="OSIRIS" match-name="PCG_REQUEST" exclude="true"/>
+  <table-filter match-schema="OSIRIS" match-name="PLAN_TABLE" exclude="true"/>
+  <table-filter match-schema="OSIRIS" match-name="PLATE" exclude="true"/>
+  <table-filter match-schema="OSIRIS" match-name="PLATE_POSITION" exclude="true"/>
+  <table-filter match-schema="OSIRIS" match-name="PPG_ADMIN_PROJECT" exclude="true"/>
+  <table-filter match-schema="OSIRIS" match-name="PPG_ALIQUOT_BCK" exclude="true"/>
+  <table-filter match-schema="OSIRIS" match-name="PPG_ALIQUOT_FORMU_REQ_TREATMNT_BCK" exclude="true"/>
+  <table-filter match-schema="OSIRIS" match-name="PPG_AUDIT_TRAIL" exclude="true"/>
+  <table-filter match-schema="OSIRIS" match-name="PPG_FORMULATION_AUD" exclude="true"/>
+  <table-filter match-schema="OSIRIS" match-name="PPG_FORMULATION_COMPOUND_AUD" exclude="true"/>
+  <table-filter match-schema="OSIRIS" match-name="PPG_FORMULATION_REQUEST" exclude="true"/>
+  <table-filter match-schema="OSIRIS" match-name="PPG_FORMULATION_REQUEST_AUD" exclude="true"/>
+  <table-filter match-schema="OSIRIS" match-name="PPG_FORMU_REQUEST_TREATMENT" exclude="true"/>
+  <table-filter match-schema="OSIRIS" match-name="PPG_LAB_JOURNAL" exclude="true"/>
+  <table-filter match-schema="OSIRIS" match-name="PPG_PKPS" exclude="true"/>
+  <table-filter match-schema="OSIRIS" match-name="PPG_PKPS_COADMIN" exclude="true"/>
+  <table-filter match-schema="OSIRIS" match-name="PPG_PKPS_COLOR_CODE" exclude="true"/>
+  <table-filter match-schema="OSIRIS" match-name="PPG_PKPS_COMPOUND" exclude="true"/>
+  <table-filter match-schema="OSIRIS" match-name="PPG_PKPS_EXPERIMENT" exclude="true"/>
+  <table-filter match-schema="OSIRIS" match-name="PPG_PKPS_PERFORMER" exclude="true"/>
+  <table-filter match-schema="OSIRIS" match-name="PPG_PKPS_VALIDATION" exclude="true"/>
+  <table-filter match-schema="OSIRIS" match-name="PPG_TREATMENT_BATCH" exclude="true"/>
+  <table-filter match-schema="OSIRIS" match-name="PPG_TREATMENT_COMPOUND_CONTEXT_BCK" exclude="true"/>
+  <table-filter match-schema="OSIRIS" match-name="PPG_TREATMENT_CONTEXT" exclude="true"/>
+  <table-filter match-schema="OSIRIS" match-name="PROJECT" exclude="true"/>
+  <table-filter match-schema="OSIRIS" match-name="PROJECT_ADMIN" exclude="true"/>
+  <table-filter match-schema="OSIRIS" match-name="PROTEIN" exclude="true"/>
+  <table-filter match-schema="OSIRIS" match-name="RECIPE_BCK" exclude="true"/>
+  <table-filter match-schema="OSIRIS" match-name="RESULT_DETAIL" exclude="true"/>
+  <table-filter match-schema="OSIRIS" match-name="RESULT_DETAIL_LIST" exclude="true"/>
+  <table-filter match-schema="OSIRIS" match-name="RESULT_MV1" exclude="true"/>
+  <table-filter match-schema="OSIRIS" match-name="RESULT_MV2" exclude="true"/>
+  <table-filter match-schema="OSIRIS" match-name="ROUTE" exclude="true"/>
+  <table-filter match-schema="OSIRIS" match-name="ROUTE_LINK" exclude="true"/>
+  <table-filter match-schema="OSIRIS" match-name="SAMPLE" exclude="true"/>
+  <table-filter match-schema="OSIRIS" match-name="SAMPLE_META_DATA" exclude="true"/>
+  <table-filter match-schema="OSIRIS" match-name="SEARCH_PROFILE" exclude="true"/>
+  <table-filter match-schema="OSIRIS" match-name="SMP_REP_EXEC_STAT" exclude="true"/>
+  <table-filter match-schema="OSIRIS" match-name="SOFTWARE_FUNCTION" exclude="true"/>
+  <table-filter match-schema="OSIRIS" match-name="SOFTWARE_FUNCTION_UNIT_BCK" exclude="true"/>
+  <table-filter match-schema="OSIRIS" match-name="SPI_ACTIVE_CMPD" exclude="true"/>
+  <table-filter match-schema="OSIRIS" match-name="SPI_FORMULATION" exclude="true"/>
+  <table-filter match-schema="OSIRIS" match-name="SPI_FORMULATION_TYPE" exclude="true"/>
+  <table-filter match-schema="OSIRIS" match-name="SPI_FORMU_CMPD" exclude="true"/>
+  <table-filter match-schema="OSIRIS" match-name="SPI_FORMU_VEHICLE" exclude="true"/>
+  <table-filter match-schema="OSIRIS" match-name="SPI_VEHICLE_ADJUVANT" exclude="true"/>
+  <table-filter match-schema="OSIRIS" match-name="SUBMISSION_TARGET" exclude="true"/>
+  <table-filter match-schema="OSIRIS" match-name="SUBMISSION_TARGET_ADMIN" exclude="true"/>
+  <table-filter match-schema="OSIRIS" match-name="SUBMISSION_TEST" exclude="true"/>
+  <table-filter match-schema="OSIRIS" match-name="SUBMISSION_TEST_ADMIN" exclude="true"/>
+  <table-filter match-schema="OSIRIS" match-name="SUBSTANCE" exclude="true"/>
+  <table-filter match-schema="OSIRIS" match-name="SUBSTANCE_NAME" exclude="true"/>
+  <table-filter match-schema="OSIRIS" match-name="SUBS_STR_IDX_I" exclude="true"/>
+  <table-filter match-schema="OSIRIS" match-name="TEST" exclude="true"/>
+  <table-filter match-schema="OSIRIS" match-name="TEST_ADMIN" exclude="true"/>
+  <table-filter match-schema="OSIRIS" match-name="TEST_CANDIDATE" exclude="true"/>
+  <table-filter match-schema="OSIRIS" match-name="TOLERABILITY" exclude="true"/>
+  <table-filter match-schema="OSIRIS" match-name="TREATMENT_AUD" exclude="true"/>
+  <table-filter match-schema="OSIRIS" match-name="TREATMENT_BCK" exclude="true"/>
+  <table-filter match-schema="OSIRIS" match-name="UNIT" exclude="true"/>
+  <table-filter match-schema="OSIRIS" match-name="UNIT_TYPE" exclude="true"/>
+  <table-filter match-schema="OSIRIS" match-name="USAGE_LOG" exclude="true"/>
+  <table-filter match-schema="OSIRIS" match-name="VALUE_DEF" exclude="true"/>
+  <table-filter match-schema="OSIRIS" match-name="VEHICLE" exclude="true"/>
+  <table-filter match-schema="OSIRIS" match-name="V_SCIENTIST" exclude="true"/>
+  <table-filter match-schema="OSIRIS" match-name="XTAL_OBSERVATION" exclude="true"/>
+  <table-filter match-schema="OSIRIS" match-name="XTAL_PLATE" exclude="true"/>
+  <table-filter match-schema="OSIRIS" match-name="XTAL_PROPERTY" exclude="true"/>
+  <table-filter match-schema="OSIRIS" match-name="XTAL_SCREEN" exclude="true"/>
+  <table-filter match-schema="OSIRIS" match-name="XTAL_SCREEN_DETAIL" exclude="true"/>
+  <table-filter match-schema="OSIRIS" match-name="NUCLIDE"/>
+  <table-filter match-schema="OSIRIS" match-name="NUCLIDE_ALLOWANCE"/>
+  <table-filter match-schema="OSIRIS" match-name="NUCLIDE_ATTACHED"/>
+  <table-filter match-schema="OSIRIS" match-name="NUCLIDE_BOTTLE"/>
+  <table-filter match-schema="OSIRIS" match-name="NUCLIDE_DISPOSAL_ROUTE"/>
+  <table-filter match-schema="OSIRIS" match-name="NUCLIDE_LOCATION"/>
+  <table-filter match-schema="OSIRIS" match-name="NUCLIDE_LOCATION_ALLOWANCE"/>
+  <table-filter match-schema="OSIRIS" match-name="NUCLIDE_LOCATION_TYPE"/>
+  <table-filter match-schema="OSIRIS" match-name="NUCLIDE_TRACER_TYPE"/>
+  <table-filter match-schema="OSIRIS" match-name="NUCLIDE_USAGE"/>
+  <table-filter match-schema="OSIRIS" match-name="NUCLIDE_USER"/>
+  <table-filter match-schema="OSIRIS" match-name="NUCLIDE_WASTE"/>
+</hibernate-reverse-engineering>

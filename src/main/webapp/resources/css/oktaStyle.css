@@ -1,0 +1,39 @@
+div#okta-login {
+    margin: 30px;
+}
+a#okta-signin {
+    padding: .75rem 1.6875rem .6875rem;
+}
+#okta-signin > span {
+    margin-right: 4px;
+}
+#okta-signin > img {
+    height: 26px;
+    filter: none;
+}
+#okta-signin > i, #okta-signin > span {
+    vertical-align: sub;
+}
+
+
+h2 {
+    font-size: 1.5em;
+    text-transform: capitalize;
+    margin: 15px;
+}
+h3 {
+    font-size: 16px
+}
+
+.row:not(.navbar-brand) {display: flex;justify-content: center;}
+.row:not(.navbar-brand) > * {/*display: inline-flex;*/width: auto;align-items: center;margin-right: 11px;margin-bottom: 5px;margin-top: 5px;}
+input {
+    border-radius: 3px;
+}
+
+#main-menu {
+    display: none;
+}
+#navbarCollapseMenuTop {
+    justify-content: flex-end;
+}
