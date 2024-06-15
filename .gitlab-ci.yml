@@ -63,31 +63,31 @@ build_job:
 
 
 # UNIT TESTS --------------------------------------------------------------
-#unit_test:
-#  stage: test
-#  needs: [resources, update_pom_version, build_job]
-#  script:
-#    - if [[ $SKIP_UNIT_TESTS ]]; then echo "Unit tests Skipped by SKIP_UNIT_TESTS variable"; exit 0; fi
-#    - echo "Running unit tests..."
-#    #if version was update in update_pom_version, get updated version in pom (git cmd not available)
-#    - if [[ $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH && $IS_UPDATED_VERSION ]]; then mvn versions:set -DremoveSnapshot; fi
-#    - mvn $MAVEN_CLI_OPTS test -Dmaven.main.skip
-#    - echo "Running unit tests complete"
-#  artifacts:
-#    when: always
-#    reports:
-#      junit:
-#        - target/surefire-reports/TEST-*.xml
-#  rules:
-#    - if: $CI_PIPELINE_SOURCE == "merge_request_event"
-#      when: never
-#    # always test on master and main develop branch
-#    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH || $CI_COMMIT_BRANCH == "develop"
-#      when: always
-#    #test only on change on core library otherwise or if last run failed
-#    - if: $CI_COMMIT_BRANCH != $CI_DEFAULT_BRANCH && $CI_COMMIT_BRANCH != "develop"
-#      changes:
-#        - $CLIENT_LIB_DIR/*
+unit_test:
+  stage: test
+  needs: [resources, update_pom_version, build_job]
+  script:
+    - if [[ $SKIP_UNIT_TESTS ]]; then echo "Unit tests Skipped by SKIP_UNIT_TESTS variable"; exit 0; fi
+    - echo "Running unit tests..."
+    #if version was update in update_pom_version, get updated version in pom (git cmd not available)
+    - if [[ $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH && $IS_UPDATED_VERSION ]]; then mvn versions:set -DremoveSnapshot; fi
+    - mvn $MAVEN_CLI_OPTS test -Dmaven.main.skip
+    - echo "Running unit tests complete"
+  artifacts:
+    when: always
+    reports:
+      junit:
+        - target/surefire-reports/TEST-*.xml
+  rules:
+    - if: $CI_PIPELINE_SOURCE == "merge_request_event"
+      when: never
+    # always test on master and main develop branch
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH || $CI_COMMIT_BRANCH == "develop"
+      when: always
+    #test only on change on core library otherwise or if last run failed
+    - if: $CI_COMMIT_BRANCH != $CI_DEFAULT_BRANCH && $CI_COMMIT_BRANCH != "develop"
+      changes:
+        - $CLIENT_LIB_DIR/*
 
 # CREATE ARTIFACT(S) (WAR) ------------------------------------------------
 package:
